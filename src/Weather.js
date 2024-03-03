@@ -2,11 +2,19 @@ import React from "react";
 
 export default function Weather() {
   return (
-    <div>
+    <div className="weather-app">
       <header>
         <form>
-          <input type="search placeholder=" Enter City required />
-          <button type="submit">Search</button>
+          <input
+            type="search placeholder="
+            Enter
+            City
+            required
+            className="search-form-input"
+          />
+          <button type="submit" className="search-form-button">
+            Search
+          </button>
         </form>
       </header>
       <main>
