@@ -40,6 +40,44 @@ header {
 main {
   padding: 30px 0;
 }
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-details {
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(0, 0, 0, 0.6);
+}
+.weather-app-details strong {
+  color: rgb(13, 147, 13);
+}
+.weather-app-temp {
+  display: flex;
+}
+.weather-app-value {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+.weather-app-unit {
+  margin-top: 6px;
+  font-size: 28px;
+}
+.current-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  max-width: 700px;
+}
 footer {
   border-top: 1px solid rgb(229, 249, 229);
   padding: 30px 0 0 0;

@@ -20,29 +20,33 @@ export default function Weather() {
       <main>
         <div className="weather-app-data">
           <div>
-            <h1>The Bronx</h1>
-            <p>
-              Friday 9:21, few clouds
+            <h1 className="current-city">The Bronx</h1>
+            <p className="weather-app-details">
+              <span>Friday 9:21</span>, <span> few clouds </span>
               <br />
-              Humidity: 46%, Wind:8mph
+              Humidity: <strong> 46%</strong>, Wind: <strong>8mph</strong>
             </p>
           </div>
           <div className="weather-app-temp">
-            <h2>42°F</h2>
+            <div id="icon"></div>
+            <div className="weather-app-value">42</div>
+            <div className="weather-app-unit">°F</div>
           </div>
         </div>
-        <ul>
-          <li>Friday</li>
-          <p>63°F - 36°F☀️</p>
-          <li>Saturday</li>
-          <p>63°F - 36°F☀️</p>
-          <li>Sunday</li>
-          <p>67°F - 46°F☀️</p>
-          <li>Monday</li>
-          <p>65°F - 38°F☀️</p>
-          <li>Tuesday</li>
-          <p>63°F - 36°F☀️</p>
-        </ul>
+        <div className="weather-forecast">
+          <ul>
+            <li>Friday</li>
+            <p>63°F - 36°F☀️</p>
+            <li>Saturday</li>
+            <p>63°F - 36°F☀️</p>
+            <li>Sunday</li>
+            <p>67°F - 46°F☀️</p>
+            <li>Monday</li>
+            <p>65°F - 38°F☀️</p>
+            <li>Tuesday</li>
+            <p>63°F - 36°F☀️</p>
+          </ul>
+        </div>
       </main>
       <footer>
         <p>
