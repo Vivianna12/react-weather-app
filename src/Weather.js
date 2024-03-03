@@ -24,7 +24,7 @@ export default function Weather() {
             <p className="weather-app-details">
               <span>Friday 9:21</span>, <span> few clouds </span>
               <br />
-              Humidity: <strong> 46%</strong>, Wind: <strong>8mph</strong>
+              Humidity: <strong> 49%</strong>, Wind: <strong>8mph</strong>
             </p>
           </div>
           <div className="weather-app-temp">
@@ -34,33 +34,33 @@ export default function Weather() {
           </div>
         </div>
         <div className="weather-forecast">
-          <ul>
-            <li>Friday</li>
-            <p>63°F - 36°F☀️</p>
-            <li>Saturday</li>
-            <p>63°F - 36°F☀️</p>
-            <li>Sunday</li>
-            <p>67°F - 46°F☀️</p>
-            <li>Monday</li>
-            <p>65°F - 38°F☀️</p>
-            <li>Tuesday</li>
-            <p>63°F - 36°F☀️</p>
-          </ul>
+          <div className="row">
+            <div className="col-2">
+              <div className="weather-forecast-date">Friday</div>
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                alt="weather-icon"
+                width="44"
+              />
+              <div className="weather-forecast-temperatures">
+                <span className="weather-forecast-temperature-max">18°</span>
+                <span className="weather-forecast-temperature-min"> 12°</span>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
       <footer>
-        <p>
-          This project was coded by{" "}
-          <a
-            href="
+        This project was coded by{" "}
+        <a
+          href="
         https://github.com/Vivianna12"
-            target="blank"
-            rel="noreferrer"
-          >
-            Vivianna Samite Estevez
-          </a>{" "}
-          is open sourced on Github and hosted on Netlify
-        </p>
+          target="blank"
+          rel="noreferrer"
+        >
+          Vivianna Samite Estevez
+        </a>{" "}
+        is open sourced on Github and hosted on Netlify
       </footer>
     </div>
   );
