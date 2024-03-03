@@ -28,25 +28,76 @@ export default function Weather() {
             </p>
           </div>
           <div className="weather-app-temp">
-            <div id="icon"></div>
+            <div className="weather-app-icon">🌤️</div>
             <div className="weather-app-value">42</div>
             <div className="weather-app-unit">°F</div>
           </div>
         </div>
         <div className="weather-forecast">
-          <div className="row">
-            <div className="col-2">
-              <div className="weather-forecast-date">Friday</div>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                alt="weather-icon"
-                width="44"
-              />
-              <div className="weather-forecast-temperatures">
-                <span className="weather-forecast-temperature-max">18°</span>
-                <span className="weather-forecast-temperature-min"> 12°</span>
-              </div>
-            </div>
+          <div className="weather-forecast-date">Friday</div>
+
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+            alt="weather-icon"
+            width="44"
+          />
+
+          <div className="weather-forecast-temperatures">
+            <span className="weather-forecast-temperature-max">
+              <strong> 18° </strong>
+            </span>
+            <span className="weather-forecast-temperature-min"> 12°</span>
+          </div>
+          <div className="weather-forecast-date">Friday</div>
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+            alt="weather-icon"
+            width="44"
+          />
+          <div className="weather-forecast-temperatures">
+            <span className="weather-forecast-temperature-max">
+              <strong> 18° </strong>
+            </span>
+            <span className="weather-forecast-temperature-min"> 12°</span>
+          </div>
+
+          <div className="weather-forecast-date">Friday</div>
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+            alt="weather-icon"
+            width="44"
+          />
+          <div className="weather-forecast-temperatures">
+            <span className="weather-forecast-temperature-max">
+              <strong> 18° </strong>
+            </span>
+            <span className="weather-forecast-temperature-min"> 12°</span>
+          </div>
+
+          <div className="weather-forecast-date">Friday</div>
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+            alt="weather-icon"
+            width="44"
+          />
+          <div className="weather-forecast-temperatures">
+            <span className="weather-forecast-temperature-max">
+              <strong> 18° </strong>
+            </span>
+            <span className="weather-forecast-temperature-min"> 12°</span>
+          </div>
+
+          <div className="weather-forecast-date">Friday</div>
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+            alt="weather-icon"
+            width="44"
+          />
+          <div className="weather-forecast-temperatures">
+            <span className="weather-forecast-temperature-max">
+              <strong> 18° </strong>
+            </span>
+            <span className="weather-forecast-temperature-min"> 12°</span>
           </div>
         </div>
       </main>
