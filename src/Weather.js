@@ -10,13 +10,19 @@ export default function Weather() {
         </form>
       </header>
       <main>
-        <h1>The Bronx</h1>
-        <p>
-          Friday 9:21, few clouds
-          <br />
-          Humidity: 46%, Wind:8mph
-        </p>
-        <h2>42°F</h2>
+        <div className="weather-app-data">
+          <div>
+            <h1>The Bronx</h1>
+            <p>
+              Friday 9:21, few clouds
+              <br />
+              Humidity: 46%, Wind:8mph
+            </p>
+          </div>
+          <div className="weather-app-temp">
+            <h2>42°F</h2>
+          </div>
+        </div>
         <ul>
           <li>Friday</li>
           <p>63°F - 36°F☀️</p>
