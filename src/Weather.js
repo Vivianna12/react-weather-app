@@ -102,7 +102,7 @@ export default function Weather() {
         </div>
       </main>
       <footer>
-        This project was coded by{" "}
+        This project was coded by
         <a
           href="
         https://github.com/Vivianna12"
@@ -110,8 +110,11 @@ export default function Weather() {
           rel="noreferrer"
         >
           Vivianna Samite Estevez
-        </a>{" "}
-        is open sourced on Github and hosted on Netlify
+        </a>
+        is open sourced on
+        <a href="https://github.com/Vivianna12/react-weather-app">Github</a> and
+        hosted on
+        <a href="https://viv-react-weather-app.netlify.app">Netlify</a>
       </footer>
     </div>
   );
