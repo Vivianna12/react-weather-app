@@ -16,6 +16,7 @@ header {
 .search-form-button {
   background: rgb(13, 147, 13);
   padding: 15px 30px;
+  margin: 0 0 0 40px;
   border: none;
   border-radius: 5px;
   color: white;
