@@ -25,7 +25,7 @@ export default function WeatherInfo(props) {
           <div className="row mt-3">
             <div className="col-6">
               <div className="d-flex">
-                <WeatherIcon code={props.data.condition} />
+                <WeatherIcon code={props.data.icon} />
                 <div className="weather-app-value">
                   {Math.round(props.data.temperature)}
                 </div>
