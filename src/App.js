@@ -13,14 +13,27 @@ export default function App() {
             href="
         https://github.com/Vivianna12"
             target="blank"
-            rel="noreferrer"
+            rel="nooperner noreferrer"
           >
             Vivianna Samite Estevez
           </a>{" "}
           is open sourced on{" "}
-          <a href="https://github.com/Vivianna12/react-weather-app">Github</a>{" "}
+          <a
+            href="https://github.com/Vivianna12/react-weather-app"
+            target="blank"
+            rel="nooperner noreferrer"
+          >
+            Github
+          </a>{" "}
           and hosted on {""}
-          <a href="https://viv-react-weather-app.netlify.app"> Netlify</a>
+          <a
+            href="https://viv-react-weather-app.netlify.app"
+            target="blank"
+            rel="nooperner noreferrer"
+          >
+            {" "}
+            Netlify
+          </a>
         </footer>
       </div>
     </div>
